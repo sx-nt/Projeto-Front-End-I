@@ -1,0 +1,9 @@
+Fonts: 
+	Título: ITC Franklin Gothic LT (Semi Bold) 
+	Subtítulo: ITC Franklin Gothic LT (Regular) 
+	
+Colors: 
+	Principal: #edf0f2
+	Azul: #58889c
+	Amarelo: #efb14b
+	Laranja: #f48e43
