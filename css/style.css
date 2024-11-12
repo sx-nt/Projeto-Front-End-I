@@ -1,0 +1,36 @@
+@import url(./normalize.css);
+@import url(./header.css);
+@import url(./pessoal.css);
+
+@import url(https://db.onlinewebfonts.com/c/7a7a98119a4525194813d8d943172e7b?family=ITC+Franklin+Gothic+LT+W04+Dm);
+
+:root{
+    --title-font: "ITC Franklin Gothic LT W04 Dm";
+    --title-weight: 400;
+
+    --font-color-prim: #edf0f2;
+    
+    --bg-color-second: #edf0f2; 
+
+    --font-color-blue:#58889c; 
+    --font-color-orange: #f48e43;
+
+    --text-shaddow: grey 1px 1px 20px;
+}
+
+body{
+    background-color: var(--font-color-prim);
+    font-family: var(--title-font);
+}
+
+
+*{
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+
+
+

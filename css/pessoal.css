@@ -1,0 +1,14 @@
+.pessoal{
+    padding-left: 2%;
+}
+
+#area-pessoal{
+    color: var(--font-color-blue);
+    font-size: 250%;
+}
+
+#area-pessoal:hover{
+    transition: 0.3s ease;
+    padding: 10px;
+}
+
