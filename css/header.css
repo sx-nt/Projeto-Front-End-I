@@ -1,15 +1,17 @@
 .iniciopag {
     background-image: url(../img/back.png);
     background-size: cover;
-    background-repeat: repeat-y;
     min-height: 100%;
+    background-repeat:round
 }
 
 .header{
     color: var(--font-color-prim);
+    width: 100%;
 }
 
 .navbar{
+    background-image: url(../img/back.png) ;
     color: var(--font-color-blue);
     display: flex;
     justify-content: flex-end;
@@ -20,8 +22,7 @@
     position: fixed;
     overflow: hidden;
     z-index: 90;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .navbar ul{
@@ -40,18 +41,21 @@
     padding: 5%;
 }
 
-.navbar a:hover{
-    background-color: var(--font-color-blue) ;
-    color: var(--font-color-prim);
-    transition: 0.3s ease;
-    padding: 10px;
-    border-radius: 50px;
+@media screen and (min-width: 450px) {
+    .navbar a:hover{
+        background-color: var(--font-color-blue);
+        color: var(--font-color-prim);
+        transition: 0.3s ease;
+        padding: 10px;
+        border-radius: 50px;
+    }
 }
 
 .logo{
     margin-right: auto;
     padding-left: 2%;
 }
+
 
 .container{
     display: flex;
@@ -66,6 +70,16 @@
 .img-incio{
     height: 350px;
     width: auto;
+}
+
+@media screen and (max-width: 750px) {
+    .img-incio{
+        height: 200px;   
+    }
+
+    .container{
+        gap: 50px;
+    }
 }
 
 .texto{
@@ -91,6 +105,19 @@
     padding-top: 15%;
 }
 
+@media screen and (max-width: 750px) {
+    .texto h1{
+        font-size: 250%; ; 
+    }
+
+    .texto h2{
+        font-size: 150%;
+    }
+
+    .texto p{
+        font-size: 80%;
+    }
+}
 
 
 
