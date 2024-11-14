@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,11 @@
     <div class="iniciopag">
         <header class="header">
             <nav class="navbar">
-                <label for="navbar" class="logo">SXNT</label>
+                <label for="navbar" class="logo"> <a href="#area-pessoal">SXNT.</a></label>
                 <ul>
-                    <li><a href="#area-pessoal">PESSOAL</a></li>
-                    <li><a href="">ACADÊMICO</a></li>
-                    <li><a href="">PROFISSIONAL</a></li>
+                    <li><a class="nav-item" href="#area-pessoal">ACADÊMICO</a></li>
+                    <li><a class="nav-item" href="">PROFISSIONAL</a></li>
+                    <li><a class="nav-item" href="#area-contato">CONTATOS</a></li>
                 </ul>
             </nav>
             <div class="container">
@@ -31,21 +31,29 @@
             </div>
         </header>
     </div>
-    <section class="pessoal">
-        <h1 id="area-pessoal">Pessoal;</h1>
-
-        <div class="areas-pessoal">
-            <h1>Quem sou eu</h1>
-            <img class="foto-pessoal" src="/img/fotopessoal.jpg" alt="">
-        </div>
-        <div class="areas-pessoal">
-            <h1>Hobbies</h1>
-            <img class="foto-pessoal" src="/img/pepita.JPG" alt="">
-        </div>
-        <div class="areas-pessoal">
-            <h1>Curiosidades</h1>
-            <img class="foto-pessoal" src="/img/paisagem.jpg" alt="">
-        </div>
-    </section>
+    <div class="pessoal">
+        <section class="pessoal" id="area-pessoal">
+            <h1 class="titulo" id="titulo-pessoal">Pessoal</h1>
+            <h2 class="titulo" id="subtitulo-pessoal">Quem sou eu?</h2>
+            <div class="texto-pessoal">
+            <p>Olá, Me chamo Sant!</p>
+            <p>Tenho 19 anos e no início de 2024 me mudei de Porto Velho - RO para São José - SC, onde, atualmente curso o segundo semestre de Análise e Desenvolvimento de Sistemas no Instituto Federal de Santa Catarina.</p>
+            </div>
+        <br>
+        </section>
+    </div>
+    <div class="footer">
+        <footer class="footer">
+            <h1 id="logo-foot">SXNT.</h1>
+            <h1 id="area-contato"> Informações de Contato </h1>
+            <ul class="lista-logos">
+                <li class="logos-item"><a href="https://github.com/sx-nt"><img class="img-logos" src="/img/github-logo.png" alt="Logo github"></a></li>
+                <li class="logos-item"><a href="https://www.linkedin.com/in/sant-semeghini-490549306/?trk=opento_sprofile_topcard"><img class="img-logos" src="/img/linkedinlogo.png" alt=" Logo linked-in"></a></li>
+                <li class="logos-item"><a href="mailto:ssemeghini.santana@gmail.com"><img class="img-logos" src="/img/gmaillogo.png" alt="Logo-Gmail"></a></li>
+                <li class="logos-item"><a href=""><img class="img-logos" src="/img/telefone-logo.png" alt="telefone"></a></li>
+            </ul>
+            <p> &copy; SXNT. 2024, Desenvolvido por Sant Semeghini</p>
+        </footer>
+    </div>
 </body>
 </html>

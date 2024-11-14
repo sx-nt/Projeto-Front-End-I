@@ -1,0 +1,53 @@
+.footer{
+    box-sizing: border-box;
+    background-image: var(--background-image);
+    background-repeat: round;
+    box-shadow: 0px 0px 8px var(--font-color-blue);
+    color: var(--font-color-prim);
+    font-size: 80%;
+    width: 100%;
+}
+
+.footer h1{
+    padding-left: 2%;
+    padding-top: 2%;
+    color: var(--font-color-prim);
+
+}
+
+#logo-foot{
+    color: var(--font-color-blue);
+    text-shadow: var(--text-shaddow-2);
+}
+#area-contato{
+    text-align: center;
+}
+
+.footer p{
+    text-align: center;
+    font-size: 100%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.lista-logos{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logos-item{
+    list-style: none;
+}
+
+.img-logos{
+    height: 30px;
+    margin: 2%;
+}
+
+.img-logos:hover{
+    background-color: var(--font-color-orange);
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+    transform: scale(102%);
+}

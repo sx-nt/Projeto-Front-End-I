@@ -1,6 +1,7 @@
 @import url(./normalize.css);
 @import url(./header.css);
 @import url(./pessoal.css);
+@import url(/css/footer.css);
 
 @import url(https://db.onlinewebfonts.com/c/7a7a98119a4525194813d8d943172e7b?family=ITC+Franklin+Gothic+LT+W04+Dm);
 
@@ -14,8 +15,13 @@
 
     --font-color-blue:#58889c; 
     --font-color-orange: #f48e43;
+    --blue-lighter: #79a8bd;
 
     --text-shaddow: grey 1px 1px 20px;
+    --text-shaddow-2: white 1px 1px 20px;
+
+    --background-image: linear-gradient(to right, #58889c 0%, #58889c 0%, #f48e43 0%, #efb14b 30%, #90a697 64%, #3a5d84 100% );
+
 }
 
 body{
