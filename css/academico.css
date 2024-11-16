@@ -1,0 +1,98 @@
+.academico-principal{
+    padding-left: 2%;
+    color: var(--font-color-blue);
+    padding-right: 2% ;
+}
+
+#academico-t:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(102%) translateY(-2px);
+}
+
+
+.horarios-academico{
+    display: flex;
+    flex-direction: column;
+    color: var(--font-color-prim);
+}
+
+.horarios-academico table{
+    max-width: 50px;
+    margin: 15px auto;
+}
+
+.horarios-academico td{
+    background-color: var(--font-color-blue);
+}
+
+.horarios-academico th{
+    background-color: var(--font-color-orange);
+}
+
+.horarios-academico th, td{
+    padding: 10px;
+}
+
+#uc-titulo{
+    margin-top: 5%;
+
+}
+
+.grid-academico{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-self: center;
+    text-align: center;
+    border-bottom: 1px solid var(--font-color-blue);
+
+}
+
+.grid-academico:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(102%);
+}
+
+.grid-academico p{
+    padding-bottom: 5%;
+    padding-top: 2%;
+
+}
+
+.item-acad-grid{
+    padding: 5px;
+}
+
+.img-acad-grid{
+    height: 70px;
+    align-items: center;
+    
+}
+
+.exp-adicional{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-adicional:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(102%);
+}
+
+.exp-adicional img{
+    height: 70px;
+    width: fit-content;
+    
+}
+
+.exp-adicional p{
+    padding-bottom: 2%;
+}
+
+@media screen and (max-width: 750px) {
+    .grid-academico{
+        grid-template-columns: auto auto;
+    }
+}

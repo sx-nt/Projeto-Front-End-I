@@ -1,11 +1,10 @@
 .iniciopag {
     background-image: url(../img/back.png);
-    background-size: cover;
-    min-height: 100%;
-    background-repeat:round;
+    width: 100%;
+    background-repeat: round;
     box-sizing: border-box;
     box-shadow: 0px 0px 8px var(--font-color-blue);
-    
+    background-size: cover;   
 }
 
 .header{
@@ -64,6 +63,10 @@
     text-shadow: var(--text-shaddow-2);
 }
 
+.logo:hover{
+    transform: scale(103%);
+
+}
 
 .container{
     display: flex;
@@ -78,6 +81,9 @@
 .img-incio{
     height: 350px;
     width: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px var(--font-color-blue);
+    border-radius: 5%;
 }
 
 .img-incio:hover{
@@ -107,6 +113,7 @@
 
 .texto h2{
     font-size: 250%;
+    padding-bottom: 15%;
 }
 
 .texto p{
@@ -114,8 +121,9 @@
     padding-bottom: 10%;
 }
 
-#subtitulo{
-    padding-top: 15%;
+#subtitulo a{
+    color: inherit;
+    text-decoration: none;
 }
 
 #subtitulo:hover{

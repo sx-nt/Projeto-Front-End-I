@@ -2,6 +2,8 @@
 @import url(./header.css);
 @import url(./pessoal.css);
 @import url(/css/footer.css);
+@import url(/css/academico.css);
+@import url(/css/profissional.css);
 
 @import url(https://db.onlinewebfonts.com/c/7a7a98119a4525194813d8d943172e7b?family=ITC+Franklin+Gothic+LT+W04+Dm);
 
@@ -22,6 +24,7 @@
 
     --background-image: linear-gradient(to right, #58889c 0%, #58889c 0%, #f48e43 0%, #efb14b 30%, #90a697 64%, #3a5d84 100% );
 
+
 }
 
 body{
@@ -34,7 +37,25 @@ body{
     list-style: none;
     box-sizing: border-box;
     margin: 0;
+}
 
+.titulo-paginas{
+    padding-top: 2%;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.titulo-paginas:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(102%) translateY(-2px);
+    color: var(--font-color-orange);
+}
+
+.subtitulos-paginas{
+    text-align: center;
+    color: var(--font-color-blue);
+    padding-bottom: 5%;
 }
 
 
