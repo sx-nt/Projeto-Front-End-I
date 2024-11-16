@@ -2,3 +2,30 @@
     padding-left: 2%;
     color: var(--font-color-blue);
 }
+
+.projetos{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.projetos p{
+    padding: 5%;
+}
+
+.experiencia{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.img-projeto{
+    height: 150px;
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px var(--font-color-blue);;
+}
+
+.img-projeto:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(102%);
+}
