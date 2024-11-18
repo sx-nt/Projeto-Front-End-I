@@ -86,3 +86,11 @@
     }
 
 }
+
+@media screen and (max-width: 600px) {
+    .imagem-item{
+        height: 100px;
+        width: 150px;
+    }
+
+}

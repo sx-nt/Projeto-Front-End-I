@@ -95,4 +95,21 @@
     .grid-academico{
         grid-template-columns: auto auto;
     }
+
+    .horarios-academico table{
+        font-size: 10px;
+        }
+ 
+    }
+    
+
+
+@media screen and (max-width: 500px) {
+    .grid-academico p{
+        font-size: 80%;
+    }
+    .img-acad-grid{
+        height: 50px;
+    }
 }
+

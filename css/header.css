@@ -1,10 +1,14 @@
 .iniciopag {
+    margin: 0;
+    padding: 0;
     background-image: url(../img/back.png);
     width: 100%;
-    background-repeat: round;
+    background-repeat:space;
     box-sizing: border-box;
     box-shadow: 0px 0px 8px var(--font-color-blue);
-    background-size: cover;   
+    background-size: cover; 
+    width: 100%;
+    height: auto;  
 }
 
 .header{
@@ -24,7 +28,7 @@
     position: fixed;
     overflow: hidden;
     z-index: 90;
-    width: 100%;    
+    min-width: 100%;   
     box-sizing: border-box;
     box-shadow: 0px 0px 8px var(--font-color-blue);
 }
@@ -99,6 +103,10 @@
     .container{
         gap: 50px;
     }
+
+    .iniciopag{
+        width: 100%;
+    }
 }
 
 .texto{
@@ -145,3 +153,8 @@
     }
 }
 
+@media screen and (max-width: 100px) {
+    .iniciopag{
+        width: 100%;
+    }
+}
